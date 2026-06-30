@@ -8,4 +8,8 @@ class Money
 
   }
 
+  @override
+  String toString() {
+    return "$value\$";
+  }
 }
